@@ -14,7 +14,18 @@ The following metrics were captured after full Synthesis, Implementation, and Bi
 | **Slice LUTs** | 3 |
 | **Design Registers (FF)** | 20 |
 
+Visual Documentation
+---
+Device View
 
+<img width="461" height="539" alt="image" src="https://github.com/user-attachments/assets/de6d0733-0000-453d-a849-e803866f6f31" />
+
+---
+RTL Schematic
+
+<img width="634" height="569" alt="image" src="https://github.com/user-attachments/assets/ea232f01-e582-4062-b496-e3dffd7d7f2a" />
+
+---
 
 ## Repository Structure
 The project is organized according to industry standards for RTL development:
