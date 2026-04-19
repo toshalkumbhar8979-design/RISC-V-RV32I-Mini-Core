@@ -1,0 +1,1324 @@
+,   2014.3"
+TimingSummary"PB_RTimingSummaryj   
+2012.4’)Timing analysis from Implemented netlist.ÅÄò@•
+    à °…º>Õ      ðÅ%ÿÿ@•&    à+ °,u  
+2014.3Z min_maxbslackh
+p}ÊòIñ…ÊòIqˆ¢™report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name RISC_V_Timing_Report¨° ¸À È Ð Øà ð˜ ¨ ° ¸À È Ð Øàèð ø € ˆ  Y
+-1  min_max ÿÿÿÿÿÿÿÿÿ(0 8 @è H X` h p x € ˆ  ˜   ¨° ¸À È ÐØàè"Á
+
+ReportTiming Summary Report
+
+Designriscv_mini_core
+K
+PartCDevice=7a35t  Package=cpg236  Speed=-1 (PRODUCTION 1.23 2018-06-13)
+T
+ VersionIVivado v2025.2 (64-bit)  SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+ 
+DateSun Apr 19 17:09:42 2026
+
+Design StateRouted
+¥
+ Command™report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name RISC_V_Timing_Report*@
+>
+sys_clk_pin óõýÿÿ#@      Y@!        ( 0 :         óõýÿÿ@2¹
+RISC_V_Timing_Report "
+no_clockH "
+constant_clockH "
+pulse_width_clockH "$
+ unconstrained_internal_endpointsH "
+no_input_delayH "1
+no_output_delayPorts with no output delay(H"
+multiple_clockH "
+generated_clocksH "	
+loopsH "
+partial_input_delayH "
+partial_output_delayH "
+latch_loopsH 0:Þ
+checking no_clock
+checking constant_clock
+checking pulse_width_clock
+)checking unconstrained_internal_endpoints
+checking no_input_delay
+checking no_output_delay
+checking multiple_clock
+checking generated_clocks
+checking loops
+checking partial_input_delay
+checking partial_output_delay
+checking latch_loopsJ
+checking no_clock3
+/ There are 0 register/latch pins with no clock./ V
+checking constant_clock9
+5 There are 0 register/latch pins with constant_clock.5 a
+checking pulse_width_clockA
+= There are 0 register/latch pins which need pulse_width check= É
+)checking unconstrained_internal_endpointsA
+= There are 0 pins that are not constrained for maximum delay.=W
+S There are 0 pins that are not constrained for maximum delay due to constant clock.S °
+checking no_input_delay;
+7 There are 0 input ports with no input delay specified.7V
+R There are 0 input ports with no input delay but user has a false path constraint.R ¶
+checking no_output_delayY
+9 There are 4 ports with no output delay specified. (HIGH)9an[0]an[1]an[2]an[3]P
+L There are 0 ports with no output delay but user has a false path constraintLk
+g There are 0 ports with no output delay but with a timing clock defined on it or propagating through itgW
+checking multiple_clock:
+6 There are 0 register/latch pins with multiple clocks.6 j
+checking generated_clocksK
+G There are 0 generated clocks that are not connected to a clock source.G G
+checking loops3
+/ There are 0 combinational loops in the design./ b
+checking partial_input_delay@
+< There are 0 input ports with partial input delay specified.< ^
+checking partial_output_delay;
+7 There are 0 ports with partial output delay specified.7 f
+checking latch_loopsL
+H There are 0 combinational latch loops in the design through latch inputH &
+  ns"MHz(0Bcheck_timing reportB‰
+SlowYesYes
+FastYesYes#
+Enable Multi Corner AnalysisYes
+Enable Pessimism RemovalYes3
+Pessimism Removal ResolutionNearest Common Node&
+ Enable Input Delay Default ClockNo 
+Enable Preset / Clear ArcsNo
+Disable Flight DelaysNo
+Ignore I/O PathsNo.
+(Timing Early Launch at Borrowing LatchesNo+
+$Borrow Time for Max Delay ExceptionsYes
+Merge Timing ExceptionsYes&
+Inter-SLR CompensationConservative"B
+Timing Configuration Report ns"MHz(0 Bconfig timing reportRñ
+â
+   !        )        1        9        A        I        eÄò@hq        }    € ˆº> ©        µ    ¸ ÀÈÕÿÿ@Øá        è ðù                ˆ ÿÿÿÿÿÿÿÿÿ˜ÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ¨ÿÿÿÿÿÿÿÿÿð ø 8@H P X `Z—
+ú
+sys_clk_pinc
+
+Min PeriodU
+ÌÅ2wÌ+2®1"clk_IBUF_BUFG_inst/I*n/a2%
+sys_clk_pin   A       @"  clkt
+
+Min Periodf
+kž2wÌ+2_p‰0")%display_unit/refresh_counter_reg[0]/C*n/a2%
+sys_clk_pin   A       @"  clku
+
+Min Periodg
+kž2wÌ+2_p‰0"*&display_unit/refresh_counter_reg[10]/C*n/a2%
+sys_clk_pin   A       @"  clku
+
+Min Periodg
+kž2wÌ+2_p‰0"*&display_unit/refresh_counter_reg[11]/C*n/a2%
+sys_clk_pin   A       @"  clku
+
+Min Periodg
+kž2wÌ+2_p‰0"*&display_unit/refresh_counter_reg[12]/C*n/a2%
+sys_clk_pin   A       @"  clku
+
+Min Periodg
+kž2wÌ+2_p‰0"*&display_unit/refresh_counter_reg[13]/C*n/a2%
+sys_clk_pin   A       @"  clku
+
+Min Periodg
+kž2wÌ+2_p‰0"*&display_unit/refresh_counter_reg[14]/C*n/a2%
+sys_clk_pin   A       @"  clku
+
+Min Periodg
+kž2wÌ+2_p‰0"*&display_unit/refresh_counter_reg[15]/C*n/a2%
+sys_clk_pin   A       @"  clku
+
+Min Periodg
+kž2wÌ+2_p‰0"*&display_unit/refresh_counter_reg[16]/C*n/a2%
+sys_clk_pin   A       @"  clku
+
+Min Periodg
+kž2wÌ+2_p‰0"*&display_unit/refresh_counter_reg[17]/C*n/a2%
+sys_clk_pin   A       @"  clk"n
+Lowg
+lžš1xÌ«1_p	0")%display_unit/refresh_counter_reg[0]/C*Slow2%
+sys_clk_pin   A       @"  clk"n
+Lowg
+jžš1vÌ«1_p	0")%display_unit/refresh_counter_reg[0]/C*Fast2%
+sys_clk_pin   A       @"  clk"o
+Lowh
+lžš1xÌ«1_p	0"*&display_unit/refresh_counter_reg[10]/C*Slow2%
+sys_clk_pin   A       @"  clk"o
+Lowh
+jžš1vÌ«1_p	0"*&display_unit/refresh_counter_reg[10]/C*Fast2%
+sys_clk_pin   A       @"  clk"o
+Lowh
+lžš1xÌ«1_p	0"*&display_unit/refresh_counter_reg[11]/C*Slow2%
+sys_clk_pin   A       @"  clk"o
+Lowh
+jžš1vÌ«1_p	0"*&display_unit/refresh_counter_reg[11]/C*Fast2%
+sys_clk_pin   A       @"  clk"o
+Lowh
+jžš1vÌ«1_p	0"*&display_unit/refresh_counter_reg[12]/C*Slow2%
+sys_clk_pin   A       @"  clk"o
+Lowh
+jžš1vÌ«1_p	0"*&display_unit/refresh_counter_reg[12]/C*Fast2%
+sys_clk_pin   A       @"  clk"o
+Lowh
+jžš1vÌ«1_p	0"*&display_unit/refresh_counter_reg[13]/C*Slow2%
+sys_clk_pin   A       @"  clk"o
+Lowh
+jžš1vÌ«1_p	0"*&display_unit/refresh_counter_reg[13]/C*Fast2%
+sys_clk_pin   A       @"  clk*o
+Highg
+jžš1vÌ«1_p	0")%display_unit/refresh_counter_reg[0]/C*Slow2%
+sys_clk_pin   A       @"  clk*o
+Highg
+kžš1wÌ«1_p	0")%display_unit/refresh_counter_reg[0]/C*Fast2%
+sys_clk_pin   A       @"  clk*p
+Highh
+jžš1vÌ«1_p	0"*&display_unit/refresh_counter_reg[10]/C*Slow2%
+sys_clk_pin   A       @"  clk*p
+Highh
+kžš1wÌ«1_p	0"*&display_unit/refresh_counter_reg[10]/C*Fast2%
+sys_clk_pin   A       @"  clk*p
+Highh
+jžš1vÌ«1_p	0"*&display_unit/refresh_counter_reg[11]/C*Slow2%
+sys_clk_pin   A       @"  clk*p
+Highh
+kžš1wÌ«1_p	0"*&display_unit/refresh_counter_reg[11]/C*Fast2%
+sys_clk_pin   A       @"  clk*p
+Highh
+kžš1wÌ«1_p	0"*&display_unit/refresh_counter_reg[12]/C*Slow2%
+sys_clk_pin   A       @"  clk*p
+Highh
+kžš1wÌ«1_p	0"*&display_unit/refresh_counter_reg[12]/C*Fast2%
+sys_clk_pin   A       @"  clk*p
+Highh
+kžš1wÌ«1_p	0"*&display_unit/refresh_counter_reg[13]/C*Slow2%
+sys_clk_pin   A       @"  clk*p
+Highh
+kžš1wÌ«1_p	0"*&display_unit/refresh_counter_reg[13]/C*Fast2%
+sys_clk_pin   A       @"  clkAÿÿÿÿ ÊòIq ( 0 8 @ H P X ` hp € š ¢ ª ° ¸ À È Ð Ø Ô
+Pulse Width Report ns"MHz(0:–
+
+ReportPulse Width Report
+
+Designriscv_mini_core
+K
+PartCDevice=7a35t  Package=cpg236  Speed=-1 (PRODUCTION 1.23 2018-06-13)
+T
+ VersionIVivado v2025.2 (64-bit)  SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+ 
+DateSun Apr 19 17:09:42 2026
+
+Design StateRoutedBmin pulse width reporth px €ˆ’	TIMING-18š Warning¢Missing input or output delayù   
+ sys_clk_pinsys_clk_pin!        ) óõýÿÿ@1      $@9        A óõýÿÿ@I      $@eÄò@hq        }    € ˆ º> ©        µ    ¸ ÀÈ Õÿÿ@Øá        è ðù                ˆ  ˜  ÿÿÿÿÿÿÿÿÿ¨ ²rise - riseºrise - riseð
+ø
+  *&display_unit/refresh_counter_reg[11]/C*&display_unit/refresh_counter_reg[11]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsuIß¶>}    …9\É¿    •        ¥»|ý¿­    µ–ë»?½    Å»|ý?Í    Õ    Ý    å    í    õ    ý    …        •º>L"¿¥    ­    µ    ½Úù~>Ål‰Ý=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢è‚
+*&display_unit/refresh_counter_reg[11]/QSLICE_X65Y27
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð s
+-)display_unit/refresh_counter_reg_n_0_[11]  Jnet (fo=1, routed)X h € l‰Ý=˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[8]_i_1/S[3]SLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+0,display_unit/refresh_counter_reg[8]_i_1/O[3]SLICE_X65Y27Prop_carry4_S[3]_O[3] JCARRY4X h zr€/Ý=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_4  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[11]/DSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € Y¨?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[11]/CSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ÿCZ?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[11]/CSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢æA  Jclock pessimismX h € L"¿˜  ¨ ¸ À Ð Ø à è ð }
+($display_unit/refresh_counter_reg[11]SLICE_X65Y27
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € 9\É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € h£é?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € º>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð   *&display_unit/refresh_counter_reg[15]/C*&display_unit/refresh_counter_reg[15]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsuIß¶>}    …9\É¿    •        ¥€ý¿­    µ–ë»?½    Å€ý?Í    Õ    Ý    å    í    õ    ý    …        •º>Öc¿¥    ­    µ    ½Úù~>Ål‰Ý=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ë‚
+*&display_unit/refresh_counter_reg[15]/QSLICE_X65Y28
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð s
+-)display_unit/refresh_counter_reg_n_0_[15]  Jnet (fo=1, routed)X h € l‰Ý=˜  ¨ ¸ À Ð Ø à è ð p
+1-display_unit/refresh_counter_reg[12]_i_1/S[3]SLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð “
+1-display_unit/refresh_counter_reg[12]_i_1/O[3]SLICE_X65Y28Prop_carry4_S[3]_O[3] JCARRY4X h zr€/Ý=˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_4  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[15]/DSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € Y¨?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[15]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ‰…Z?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[15]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢æA  Jclock pessimismX h € Öc¿˜  ¨ ¸ À Ð Ø à è ð }
+($display_unit/refresh_counter_reg[15]SLICE_X65Y28
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € 9\É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € h£é?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € º>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð ù  )%display_unit/refresh_counter_reg[3]/C)%display_unit/refresh_counter_reg[3]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsuIß¶>}    …ëùÈ¿    •        ¥mý¿­    µG‰»?½    Åmý?Í    Õ    Ý    å    í    õ    ý    …        •º>L"¿¥    ­    µ    ½Úù~>Ål‰Ý=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢å
+)%display_unit/refresh_counter_reg[3]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[3]  Jnet (fo=1, routed)X h € l‰Ý=˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[3]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+0,display_unit/refresh_counter_reg[0]_i_1/O[3]SLICE_X65Y25Prop_carry4_S[3]_O[3] JCARRY4X h zr€/Ý=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_4  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[3]/DSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¾ã?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[3]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € dY?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[3]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢åA  Jclock pessimismX h € L"¿˜  ¨ ¸ À Ð Ø à è ð |
+'#display_unit/refresh_counter_reg[3]SLICE_X65Y25
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € ëùÈ¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € Aé?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € º>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð ù  )%display_unit/refresh_counter_reg[7]/C)%display_unit/refresh_counter_reg[7]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsuIß¶>}    …±É¿    •        ¥2;ý¿­    µ
+ª»?½    Å2;ý?Í    Õ    Ý    å    í    õ    ý    …        •º>L"¿¥    ­    µ    ½Úù~>Ål‰Ý=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢å
+)%display_unit/refresh_counter_reg[7]/QSLICE_X65Y26
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[7]  Jnet (fo=1, routed)X h € l‰Ý=˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[4]_i_1/S[3]SLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+0,display_unit/refresh_counter_reg[4]_i_1/O[3]SLICE_X65Y26Prop_carry4_S[3]_O[3] JCARRY4X h zr€/Ý=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_4  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[7]/DSLICE_X65Y26  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € F%?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[7]/CSLICE_X65Y26  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € íÀY?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[7]/CSLICE_X65Y26  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢åA  Jclock pessimismX h € L"¿˜  ¨ ¸ À Ð Ø à è ð |
+'#display_unit/refresh_counter_reg[7]SLICE_X65Y26
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € ±É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € ßaé?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € º>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð   *&display_unit/refresh_counter_reg[12]/C*&display_unit/refresh_counter_reg[12]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsu”ë¸>}    …9\É¿    •        ¥€ý¿­    µ–ë»?½    Å€ý?Í    Õ    Ý    å    í    õ    ý    …        •)ƒ>Öc¿¥    ­    µ    ½oƒ>Åd×=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ë‚
+*&display_unit/refresh_counter_reg[12]/QSLICE_X65Y28
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð s
+-)display_unit/refresh_counter_reg_n_0_[12]  Jnet (fo=1, routed)X h € d×=˜  ¨ ¸ À Ð Ø à è ð p
+1-display_unit/refresh_counter_reg[12]_i_1/S[0]SLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð “
+1-display_unit/refresh_counter_reg[12]_i_1/O[0]SLICE_X65Y28Prop_carry4_S[0]_O[0] JCARRY4X h zr€…ë=˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_7  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[12]/DSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € Y¨?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[12]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ‰…Z?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[12]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢æA  Jclock pessimismX h € Öc¿˜  ¨ ¸ À Ð Ø à è ð }
+($display_unit/refresh_counter_reg[12]SLICE_X65Y28
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € 9\É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € z&ê?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € )ƒ>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð ù  )%display_unit/refresh_counter_reg[4]/C)%display_unit/refresh_counter_reg[4]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsu”ë¸>}    …±É¿    •        ¥2;ý¿­    µ
+ª»?½    Å2;ý?Í    Õ    Ý    å    í    õ    ý    …        •)ƒ>L"¿¥    ­    µ    ½oƒ>Åd×=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢å
+)%display_unit/refresh_counter_reg[4]/QSLICE_X65Y26
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[4]  Jnet (fo=1, routed)X h € d×=˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[4]_i_1/S[0]SLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+0,display_unit/refresh_counter_reg[4]_i_1/O[0]SLICE_X65Y26Prop_carry4_S[0]_O[0] JCARRY4X h zr€…ë=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_7  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[4]/DSLICE_X65Y26  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € F%?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[4]/CSLICE_X65Y26  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € íÀY?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[4]/CSLICE_X65Y26  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢åA  Jclock pessimismX h € L"¿˜  ¨ ¸ À Ð Ø à è ð |
+'#display_unit/refresh_counter_reg[4]SLICE_X65Y26
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € ±É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € òäé?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € )ƒ>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð ù  )%display_unit/refresh_counter_reg[8]/C)%display_unit/refresh_counter_reg[8]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsu”ë¸>}    …9\É¿    •        ¥»|ý¿­    µ–ë»?½    Å»|ý?Í    Õ    Ý    å    í    õ    ý    …        •)ƒ>L"¿¥    ­    µ    ½oƒ>Åd×=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢å
+)%display_unit/refresh_counter_reg[8]/QSLICE_X65Y27
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[8]  Jnet (fo=1, routed)X h € d×=˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[8]_i_1/S[0]SLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+0,display_unit/refresh_counter_reg[8]_i_1/O[0]SLICE_X65Y27Prop_carry4_S[0]_O[0] JCARRY4X h zr€…ë=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_7  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[8]/DSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € Y¨?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[8]/CSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ÿCZ?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[8]/CSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢åA  Jclock pessimismX h € L"¿˜  ¨ ¸ À Ð Ø à è ð |
+'#display_unit/refresh_counter_reg[8]SLICE_X65Y27
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € 9\É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € z&ê?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € )ƒ>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð   *&display_unit/refresh_counter_reg[16]/C*&display_unit/refresh_counter_reg[16]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsu”ë¸>}    …ý|É¿    •        ¥D¾ý¿­    µ[¼?½    ÅD¾ý?Í    Õ    Ý    å    í    õ    ý    …        •)ƒ>Õc¿¥    ­    µ    ½oƒ>Åd×=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ë‚
+*&display_unit/refresh_counter_reg[16]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð s
+-)display_unit/refresh_counter_reg_n_0_[16]  Jnet (fo=1, routed)X h € d×=˜  ¨ ¸ À Ð Ø à è ð p
+1-display_unit/refresh_counter_reg[16]_i_1/S[0]SLICE_X65Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð “
+1-display_unit/refresh_counter_reg[16]_i_1/O[0]SLICE_X65Y29Prop_carry4_S[0]_O[0] JCARRY4X h zr€…ë=˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[16]_i_1_n_7  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[16]/DSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ãé?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[16]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ÇZ?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[16]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢æA  Jclock pessimismX h € Õc¿˜  ¨ ¸ À Ð Ø à è ð }
+($display_unit/refresh_counter_reg[16]SLICE_X65Y29
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € ý|É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € @Gê?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € )ƒ>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð   *&display_unit/refresh_counter_reg[10]/C*&display_unit/refresh_counter_reg[10]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsu¿¹>}    …9\É¿    •        ¥»|ý¿­    µ–ë»?½    Å»|ý?Í    Õ    Ý    å    í    õ    ý    …        •/Dƒ>L"¿¥    ­    µ    ½%>Åeà=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢è‚
+*&display_unit/refresh_counter_reg[10]/QSLICE_X65Y27
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð s
+-)display_unit/refresh_counter_reg_n_0_[10]  Jnet (fo=1, routed)X h € eà=˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[8]_i_1/S[2]SLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+0,display_unit/refresh_counter_reg[8]_i_1/O[2]SLICE_X65Y27Prop_carry4_S[2]_O[2] JCARRY4X h zr€øSã=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_5  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[10]/DSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € Y¨?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[10]/CSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ÿCZ?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[10]/CSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢æA  Jclock pessimismX h € L"¿˜  ¨ ¸ À Ð Ø à è ð }
+($display_unit/refresh_counter_reg[10]SLICE_X65Y27
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € 9\É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € E-ê?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € /Dƒ>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð   *&display_unit/refresh_counter_reg[14]/C*&display_unit/refresh_counter_reg[14]/D* : B J Z
+(CARRY4=1)j3sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000nsu¿¹>}    …9\É¿    •        ¥€ý¿­    µ–ë»?½    Å€ý?Í    Õ    Ý    å    í    õ    ý    …        •/Dƒ>Öc¿¥    ­    µ    ½%>Åeà=Í    Õ    Ý    å    è ø€ˆ ˜   ¨ ° ¸ À È ÐØ à è ð ø€ ˆ  ˜   ¨ °¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚFastâsys_clk_pinêsys_clk_pinòsys_clk_pin’(DCD - SCD - CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ë‚
+*&display_unit/refresh_counter_reg[14]/QSLICE_X65Y28
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð s
+-)display_unit/refresh_counter_reg_n_0_[14]  Jnet (fo=1, routed)X h € eà=˜  ¨ ¸ À Ð Ø à è ð p
+1-display_unit/refresh_counter_reg[12]_i_1/S[2]SLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð “
+1-display_unit/refresh_counter_reg[12]_i_1/O[2]SLICE_X65Y28Prop_carry4_S[2]_O[2] JCARRY4X h zr€øSã=˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_5  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[14]/DSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € Y¨?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[14]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ú Ô>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H/?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€i‘í<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ‰…Z?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[14]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢æA  Jclock pessimismX h € Öc¿˜  ¨ ¸ À Ð Ø à è ð }
+($display_unit/refresh_counter_reg[14]SLICE_X65Y28
+Hold_fdre_C_D JFDREX h € >
+×=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € 9\É¿˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € E-ê?˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € /Dƒ>˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð \  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[17]/D* : B J Z
+(CARRY4=5)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsu`&@}   A…frA    •        ¥.›À­ƒ¼µåt¤@½    Å.›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •Äò@5Œ>¥    ­    µ    ½+ç?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ø
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[8]_i_1/CO[3]SLICE_X65Y27Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[12]_i_1/CISLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð “
+2.display_unit/refresh_counter_reg[12]_i_1/CO[3]SLICE_X65Y28Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[16]_i_1/CISLICE_X65Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ‘
+1-display_unit/refresh_counter_reg[16]_i_1/O[1]SLICE_X65Y29Prop_carry4_CI_O[1] JCARRY4X h zr€«>˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[16]_i_1_n_6  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[17]/DSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ?Á?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[17]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[17]SLICE_X65Y29Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € frA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € òÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € Äò@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð \  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[19]/D* : B J Z
+(CARRY4=5)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsuOÎ@}   A…frA    •        ¥.›À­ƒ¼µåt¤@½    Å.›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •
+pó@5Œ>¥    ­    µ    ½âzä?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ø
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[8]_i_1/CO[3]SLICE_X65Y27Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[12]_i_1/CISLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð “
+2.display_unit/refresh_counter_reg[12]_i_1/CO[3]SLICE_X65Y28Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[16]_i_1/CISLICE_X65Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ‘
+1-display_unit/refresh_counter_reg[16]_i_1/O[3]SLICE_X65Y29Prop_carry4_CI_O[3] JCARRY4X h zr€‰A >˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[16]_i_1_n_4  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[19]/DSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ?Á?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[19]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[19]SLICE_X65Y29Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € frA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € 
+\ñÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € 
+pó@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð \  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[18]/D* : B J Z
+(CARRY4=5)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsuã@}   A…frA    •        ¥.›À­ƒ¼µåt¤@½    Å.›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •@Îõ@5Œ>¥    ­    µ    ½Û?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ø
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[8]_i_1/CO[3]SLICE_X65Y27Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[12]_i_1/CISLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð “
+2.display_unit/refresh_counter_reg[12]_i_1/CO[3]SLICE_X65Y28Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[16]_i_1/CISLICE_X65Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ‘
+1-display_unit/refresh_counter_reg[16]_i_1/O[2]SLICE_X65Y29Prop_carry4_CI_O[2] JCARRY4X h zr€j¼t>˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[16]_i_1_n_5  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[18]/DSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ?Á?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[18]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[18]SLICE_X65Y29Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € frA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € ×ýîÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € @Îõ@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð \  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[16]/D* : B J Z
+(CARRY4=5)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsuÀ@}   A…frA    •        ¥.›À­ƒ¼µåt¤@½    Å.›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •RQö@5Œ>¥    ­    µ    ½ÃõØ?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ø
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[8]_i_1/CO[3]SLICE_X65Y27Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[12]_i_1/CISLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð “
+2.display_unit/refresh_counter_reg[12]_i_1/CO[3]SLICE_X65Y28Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[16]_i_1/CISLICE_X65Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ‘
+1-display_unit/refresh_counter_reg[16]_i_1/O[0]SLICE_X65Y29Prop_carry4_CI_O[0] JCARRY4X h zr€Zd>˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[16]_i_1_n_7  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[16]/DSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ?Á?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[16]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[16]SLICE_X65Y29Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € frA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € ÅzîÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € RQö@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð Þ  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[13]/D* : B J Z
+(CARRY4=4)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsu˜Ú@}   A…óarA    •        ¥P&›À­~C‹¼µåt¤@½    ÅP&›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •´aö@5Œ>¥    ­    µ    ½v“Ø?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ú
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[8]_i_1/CO[3]SLICE_X65Y27Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[12]_i_1/CISLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ‘
+1-display_unit/refresh_counter_reg[12]_i_1/O[1]SLICE_X65Y28Prop_carry4_CI_O[1] JCARRY4X h zr€«>˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_6  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[13]/DSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € |òÀ?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[13]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[13]SLICE_X65Y28Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € óarA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € 1bîÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € ´aö@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð Þ  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[15]/D* : B J Z
+(CARRY4=4)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsu‡‚@}   A…óarA    •        ¥P&›À­~C‹¼µåt¤@½    ÅP&›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •½
+÷@5Œ>¥    ­    µ    ½TãÕ?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ú
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[8]_i_1/CO[3]SLICE_X65Y27Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[12]_i_1/CISLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ‘
+1-display_unit/refresh_counter_reg[12]_i_1/O[3]SLICE_X65Y28Prop_carry4_CI_O[3] JCARRY4X h zr€‰A >˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_4  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[15]/DSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € |òÀ?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[15]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[15]SLICE_X65Y28Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € óarA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € )¶íÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € ½
+÷@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð Þ  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[14]/D* : B J Z
+(CARRY4=4)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsuÆ
+@}   A…óarA    •        ¥P&›À­~C‹¼µåt¤@½    ÅP&›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •ñkù@5Œ>¥    ­    µ    ½€jÌ?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ú
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[8]_i_1/CO[3]SLICE_X65Y27Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[12]_i_1/CISLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ‘
+1-display_unit/refresh_counter_reg[12]_i_1/O[2]SLICE_X65Y28Prop_carry4_CI_O[2] JCARRY4X h zr€j¼t>˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_5  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[14]/DSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € |òÀ?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[14]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[14]SLICE_X65Y28Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € óarA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € ôWëÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € ñkù@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð Þ  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[12]/D* : B J Z
+(CARRY4=4)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsuø¿@}   A…óarA    •        ¥P&›À­~C‹¼µåt¤@½    ÅP&›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •ïù@5Œ>¥    ­    µ    ½5^Ê?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ú
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[8]_i_1/CO[3]SLICE_X65Y27Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð n
+/+display_unit/refresh_counter_reg[12]_i_1/CISLICE_X65Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ‘
+1-display_unit/refresh_counter_reg[12]_i_1/O[0]SLICE_X65Y28Prop_carry4_CI_O[0] JCARRY4X h zr€Zd>˜  ¨ ¸ À Ð Ø à è ð v
+0,display_unit/refresh_counter_reg[12]_i_1_n_7  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[12]/DSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € |òÀ?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[12]/CSLICE_X65Y28  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[12]SLICE_X65Y28Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € óarA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € áÔêÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € ïù@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð \  )%display_unit/refresh_counter_reg[1]/C)%display_unit/refresh_counter_reg[9]/D* : B J Z
+(CARRY4=3)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsuÒŽ@}   A…ÃYrA    •        ¥ï›À­=¥›¼µåt¤@½    Åï›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •8÷ù@5Œ>¥    ­    µ    ½çûÉ?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Û
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð 
+0,display_unit/refresh_counter_reg[8]_i_1/O[1]SLICE_X65Y27Prop_carry4_CI_O[1] JCARRY4X h zr€«>˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_6  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[9]/DSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ó°À?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[9]/CSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢«A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð }
+'#display_unit/refresh_counter_reg[9]SLICE_X65Y27Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € ÃYrA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € N¼êÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € 8÷ù@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð `  )%display_unit/refresh_counter_reg[1]/C*&display_unit/refresh_counter_reg[11]/D* : B J Z
+(CARRY4=3)j4sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000nsuÁ6@}   A…ÃYrA    •        ¥ï›À­=¥›¼µåt¤@½    Åï›@Í   AÕÃÐ=ÝÃÐ=å    í    õ    ý    …        •@£ú@5Œ>¥    ­    µ    ½ÆKÇ?Å|C?Í    Õ    Ý    å    è ø €ˆ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Òe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})ÚSlowâsys_clk_pinêsys_clk_pinòsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE’(DCD - SCD + CPR)˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢Ü
+)%display_unit/refresh_counter_reg[1]/QSLICE_X65Y25
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð r
+,(display_unit/refresh_counter_reg_n_0_[1]  Jnet (fo=1, routed)X h € |C?˜  ¨ ¸ À Ð Ø à è ð o
+0,display_unit/refresh_counter_reg[0]_i_1/S[1]SLICE_X65Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ”
+1-display_unit/refresh_counter_reg[0]_i_1/CO[3]SLICE_X65Y25Prop_carry4_S[1]_CO[3] JCARRY4X h zr€C‹,?˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[0]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[4]_i_1/CISLICE_X65Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ’
+1-display_unit/refresh_counter_reg[4]_i_1/CO[3]SLICE_X65Y26Prop_carry4_CI_CO[3] JCARRY4X h zr€Õxé=˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[4]_i_1_n_0  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+.*display_unit/refresh_counter_reg[8]_i_1/CISLICE_X65Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð 
+0,display_unit/refresh_counter_reg[8]_i_1/O[3]SLICE_X65Y27Prop_carry4_CI_O[3] JCARRY4X h zr€‰A >˜  ¨ ¸ À Ð Ø à è ð u
+/+display_unit/refresh_counter_reg[8]_i_1_n_4  Jnet (fo=1, routed)X h €     ˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[11]/DSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ¼'Ï?˜  ¨ ¸ À Ð Ø à è ð l
+)%display_unit/refresh_counter_reg[1]/CSLICE_X65Y25  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€   A˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Þª±?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Vî?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€5^º=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ó°À?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[11]/CSLICE_X65Y27  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢¬A  Jclock pessimismX h € 5Œ>˜  ¨ ¸ À Ð Ø à è ð C  Jclock uncertaintyX h € ÃÐ½˜  ¨ ¸ À Ð Ø à è ð ~
+($display_unit/refresh_counter_reg[11]SLICE_X65Y27Setup_fdre_C_D JFDREX h € ·ó}=˜  ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð ?  J
+required timeX h € ÃYrA˜ ¨ ¸ À Ð Ø à è ð >  Jarrival timeX h € FêÀ˜ ¨ ¸ À Ð Ø à è ð 2  J X h €     ˜   ¨ ¸ À Ð Ø à è ð 7  JslackX h € @£ú@˜ ¨ ¸ À Ð Ø à è ð ¸Ð ð ä   
+(none)sys_clk_pin !        ) óõýÿÿ@1      $@9        A        I        e    hq        }    €ˆ      ©        µ    ¸ÀÈ Ø á        è ð ù                ˆ ÿÿÿÿÿÿÿÿÿ˜ÿÿÿÿÿÿÿÿÿ d¨ÿÿÿÿÿÿÿÿÿðøb	  *&display_unit/refresh_counter_reg[19]/C	 an[1]* : B J Z(LUT2=1 OBUF=1)u±Åû?}  €ÿ…        •        ¥    ­    ½    Í    ÕÍÌÌ<ÝÍÌL=å    í    õ    ý    …        •  €    ¥    ­    µ    ½ìq±?Åˆ§?Í    Õ    Ý    å    èø€ ˆ ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨ ° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Ò
+(output port)ÚFastâ(none)êsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ý‚
+*&display_unit/refresh_counter_reg[19]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð f
+ display_unit/active_digit[1]  Jnet (fo=5, routed)X h € 3>˜  ¨ ¸ À Ð Ø à è ð f
+'#display_unit/an_OBUF[1]_inst_i_1/I0SLICE_X64Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð 
+&"display_unit/an_OBUF[1]_inst_i_1/OSLICE_X64Y29Prop_lut2_I0_O JLUT2X h zr€ìQ8=˜  ¨ ¸ À Ð Ø à è ð T
+
+an_OBUF[1]  Jnet (fo=1, routed)X h € ¨>˜  ¨ ¸ À Ð Ø à è ð Q
+an_OBUF[1]_inst/I	IOB_X1Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð j
+an_OBUF[1]_inst/O	IOB_X1Y28
+Prop_obuf_I_O JOBUFX h zr€£™?˜  ¨ ¸ À Ð Ø à è ð G
+	an[1]  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð E
+	 an[1]	IOB_X1Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ãé?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[19]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¸Ð ð b	  *&display_unit/refresh_counter_reg[19]/C	 an[2]* : B J Z(LUT2=1 OBUF=1)uÞi@}  €ÿ…        •        ¥    ­    ½    Í    ÕÍÌÌ<ÝÍÌL=å    í    õ    ý    …        •  €    ¥    ­    µ    ½~Ë¼?Åz ?Í    Õ    Ý    å    èø€ ˆ ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨ ° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Ò
+(output port)ÚFastâ(none)êsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ý‚
+*&display_unit/refresh_counter_reg[19]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zf€Nb>˜  ¨ ¸ À Ð Ø à è ð f
+ display_unit/active_digit[1]  Jnet (fo=5, routed)X h € 3>˜  ¨ ¸ À Ð Ø à è ð f
+'#display_unit/an_OBUF[2]_inst_i_1/I1SLICE_X64Y29  J X h zf€ ˜  ¨ ¸ À Ð Ø à è ð 
+&"display_unit/an_OBUF[2]_inst_i_1/OSLICE_X64Y29Prop_lut2_I1_O JLUT2X h zr€X94=˜  ¨ ¸ À Ð Ø à è ð T
+
+an_OBUF[2]  Jnet (fo=1, routed)X h € åí¾>˜  ¨ ¸ À Ð Ø à è ð Q
+an_OBUF[2]_inst/I	IOB_X1Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð j
+an_OBUF[2]_inst/O	IOB_X1Y27
+Prop_obuf_I_O JOBUFX h zr€i¥?˜  ¨ ¸ À Ð Ø à è ð G
+	an[2]  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð E
+	 an[2]	IOB_X1Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ãé?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[19]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¸Ð ð b	  *&display_unit/refresh_counter_reg[19]/C	 an[0]* : B J Z(LUT2=1 OBUF=1)u©w@}  €ÿ…        •        ¥    ­    ½    Í    ÕÍÌÌ<ÝÍÌL=å    í    õ    ý    …        •  €    ¥    ­    µ    ½:E»?Å/T#?Í    Õ    Ý    å    èø€ ˆ ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨ ° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Ò
+(output port)ÚFastâ(none)êsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ý‚
+*&display_unit/refresh_counter_reg[19]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zr€Nb>˜  ¨ ¸ À Ð Ø à è ð f
+ display_unit/active_digit[1]  Jnet (fo=5, routed)X h € dG}>˜  ¨ ¸ À Ð Ø à è ð f
+'#display_unit/an_OBUF[0]_inst_i_1/I1SLICE_X64Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð 
+&"display_unit/an_OBUF[0]_inst_i_1/OSLICE_X64Y29Prop_lut2_I1_O JLUT2X h zr€ìQ8=˜  ¨ ¸ À Ð Ø à è ð T
+
+an_OBUF[0]  Jnet (fo=1, routed)X h € ¬È>˜  ¨ ¸ À Ð Ø à è ð Q
+an_OBUF[0]_inst/I	IOB_X1Y31  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð j
+an_OBUF[0]_inst/O	IOB_X1Y31
+Prop_obuf_I_O JOBUFX h zr€av£?˜  ¨ ¸ À Ð Ø à è ð G
+	an[0]  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð E
+	 an[0]	IOB_X1Y31  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ãé?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[19]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¸Ð ð b	  *&display_unit/refresh_counter_reg[19]/C	 an[3]* : B J Z(LUT2=1 OBUF=1)uXè@}  €ÿ…        •        ¥    ­    ½    Í    ÕÍÌÌ<ÝÍÌL=å    í    õ    ý    …        •  €    ¥    ­    µ    ½ØÝ²?Å±å5?Í    Õ    Ý    å    èø€ ˆ ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨ ° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Ò
+(output port)ÚFastâ(none)êsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ý‚
+*&display_unit/refresh_counter_reg[19]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zf€Nb>˜  ¨ ¸ À Ð Ø à è ð f
+ display_unit/active_digit[1]  Jnet (fo=5, routed)X h € dG}>˜  ¨ ¸ À Ð Ø à è ð f
+'#display_unit/an_OBUF[3]_inst_i_1/I1SLICE_X64Y29  J X h zf€ ˜  ¨ ¸ À Ð Ø à è ð 
+&"display_unit/an_OBUF[3]_inst_i_1/OSLICE_X64Y29Prop_lut2_I1_O JLUT2X h zr€ìQ8=˜  ¨ ¸ À Ð Ø à è ð T
+
+an_OBUF[3]  Jnet (fo=1, routed)X h € ±'í>˜  ¨ ¸ À Ð Ø à è ð Q
+an_OBUF[3]_inst/I	IOB_X1Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð j
+an_OBUF[3]_inst/O	IOB_X1Y25
+Prop_obuf_I_O JOBUFX h zr€ÿ›?˜  ¨ ¸ À Ð Ø à è ð G
+	an[3]  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð E
+	 an[3]	IOB_X1Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€{Üg>˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € Ä!?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€ôýÔ<˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € ãé?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[19]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¸Ð ð b	  *&display_unit/refresh_counter_reg[18]/C	 an[2]* : B J Z(LUT2=1 OBUF=1)umçà@}  €…        •        ¥    ­    ½    Í    ÕÍÌÌ<ÝÍÌL=å    í    õ    ý    …        •  €    ¥    ­    µ    ½(‡Š@ÅˆÀ,@Í    Õ    Ý    å    èø € ˆ ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨ ° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Ò
+(output port)ÚSlowâ(none)êsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ý‚
+*&display_unit/refresh_counter_reg[18]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð f
+ display_unit/active_digit[0]  Jnet (fo=5, routed)X h € a“_?˜  ¨ ¸ À Ð Ø à è ð f
+'#display_unit/an_OBUF[2]_inst_i_1/I0SLICE_X64Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð 
+&"display_unit/an_OBUF[2]_inst_i_1/OSLICE_X64Y29Prop_lut2_I0_O JLUT2X h zr€>˜  ¨ ¸ À Ð Ø à è ð T
+
+an_OBUF[2]  Jnet (fo=1, routed)X h € `·é?˜  ¨ ¸ À Ð Ø à è ð Q
+an_OBUF[2]_inst/I	IOB_X1Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð j
+an_OBUF[2]_inst/O	IOB_X1Y27
+Prop_obuf_I_O JOBUFX h zr€&‡n@˜  ¨ ¸ À Ð Ø à è ð G
+	an[2]  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð E
+	 an[2]	IOB_X1Y27  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € 
+Ð?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[18]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¸Ð ð b	  *&display_unit/refresh_counter_reg[18]/C	 an[0]* : B J Z(LUT2=1 OBUF=1)uÚHà@}  €…        •        ¥    ­    ½    Í    ÕÍÌÌ<ÝÍÌL=å    í    õ    ý    …        •  €    ¥    ­    µ    ½k·Š@ÅÞ"+@Í    Õ    Ý    å    èø € ˆ ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨ ° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Ò
+(output port)ÚSlowâ(none)êsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ý‚
+*&display_unit/refresh_counter_reg[18]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zr€Öxé>˜  ¨ ¸ À Ð Ø à è ð f
+ display_unit/active_digit[0]  Jnet (fo=5, routed)X h € ‡]?˜  ¨ ¸ À Ð Ø à è ð f
+'#display_unit/an_OBUF[0]_inst_i_1/I0SLICE_X64Y29  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð 
+&"display_unit/an_OBUF[0]_inst_i_1/OSLICE_X64Y29Prop_lut2_I0_O JLUT2X h zr€ã¥>˜  ¨ ¸ À Ð Ø à è ð T
+
+an_OBUF[0]  Jnet (fo=1, routed)X h € 1‚ç?˜  ¨ ¸ À Ð Ø à è ð Q
+an_OBUF[0]_inst/I	IOB_X1Y31  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð j
+an_OBUF[0]_inst/O	IOB_X1Y31
+Prop_obuf_I_O JOBUFX h zr€]…n@˜  ¨ ¸ À Ð Ø à è ð G
+	an[0]  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð E
+	 an[0]	IOB_X1Y31  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € 
+Ð?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[18]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¸Ð ð b	  *&display_unit/refresh_counter_reg[18]/C	 an[3]* : B J Z(LUT2=1 OBUF=1)u¯'Ü@}  €…        •        ¥    ­    ½    Í    ÕÍÌÌ<ÝÍÌL=å    í    õ    ý    …        •  €    ¥    ­    µ    ½Îã‚@ÅÃ‡2@Í    Õ    Ý    å    èø € ˆ ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨ ° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Ò
+(output port)ÚSlowâ(none)êsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ý‚
+*&display_unit/refresh_counter_reg[18]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zf€Öxé>˜  ¨ ¸ À Ð Ø à è ð f
+ display_unit/active_digit[0]  Jnet (fo=5, routed)X h € ‡]?˜  ¨ ¸ À Ð Ø à è ð f
+'#display_unit/an_OBUF[3]_inst_i_1/I0SLICE_X64Y29  J X h zf€ ˜  ¨ ¸ À Ð Ø à è ð 
+&"display_unit/an_OBUF[3]_inst_i_1/OSLICE_X64Y29Prop_lut2_I0_O JLUT2X h zr€·óý=˜  ¨ ¸ À Ð Ø à è ð T
+
+an_OBUF[3]  Jnet (fo=1, routed)X h € ùKö?˜  ¨ ¸ À Ð Ø à è ð Q
+an_OBUF[3]_inst/I	IOB_X1Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð j
+an_OBUF[3]_inst/O	IOB_X1Y25
+Prop_obuf_I_O JOBUFX h zr€ã¨`@˜  ¨ ¸ À Ð Ø à è ð G
+	an[3]  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð E
+	 an[3]	IOB_X1Y25  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € 
+Ð?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[18]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¸Ð ð b	  *&display_unit/refresh_counter_reg[18]/C	 an[1]* : B J Z(LUT2=1 OBUF=1)u'Ô@}  €…        •        ¥    ­    ½    Í    ÕÍÌÌ<ÝÍÌL=å    í    õ    ý    …        •  €    ¥    ­    µ    ½ê‡‚@Å\>#@Í    Õ    Ý    å    èø € ˆ ˜  ¨°¸À È ÐØ à è ð ø€ ˆ  ˜   ¨ ° ¸ À Êe(rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})Ò
+(output port)ÚSlowâ(none)êsys_clk_pinŠ#((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE˜  ¨¸ Õ    Ø àè õ    ý    …        •    ¢ý‚
+*&display_unit/refresh_counter_reg[18]/QSLICE_X65Y29
+Prop_fdre_C_Q JFDREX h zf€Öxé>˜  ¨ ¸ À Ð Ø à è ð f
+ display_unit/active_digit[0]  Jnet (fo=5, routed)X h € a“_?˜  ¨ ¸ À Ð Ø à è ð f
+'#display_unit/an_OBUF[1]_inst_i_1/I1SLICE_X64Y29  J X h zf€ ˜  ¨ ¸ À Ð Ø à è ð 
+&"display_unit/an_OBUF[1]_inst_i_1/OSLICE_X64Y29Prop_lut2_I1_O JLUT2X h zr€·óý=˜  ¨ ¸ À Ð Ø à è ð T
+
+an_OBUF[1]  Jnet (fo=1, routed)X h € ³Ö?˜  ¨ ¸ À Ð Ø à è ð Q
+an_OBUF[1]_inst/I	IOB_X1Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð j
+an_OBUF[1]_inst/O	IOB_X1Y28
+Prop_obuf_I_O JOBUFX h zr€ñ_@˜  ¨ ¸ À Ð Ø à è ð G
+	an[1]  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð E
+	 an[1]	IOB_X1Y28  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¢ R  J(clock sys_clk_pin rise edge)X h zr€    ˜  ¨ ¸ À Ð Ø à è ð I
+  clk	IOB_X1Y26  J X h zr€    ˜  ¨ ¸ À Ð Ø à è ð E
+ clk  J
+net (fo=0)X h €     ˜  ¨ ¸ À Ð Ø à è ð O
+clk_IBUF_inst/I	IOB_X1Y26  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð h
+clk_IBUF_inst/O	IOB_X1Y26
+Prop_ibuf_I_O JIBUFX h zr€Ö«º?˜  ¨ ¸ À Ð Ø à è ð R
+clk_IBUF  Jnet (fo=1, routed)X h € H¶û?˜  ¨ ¸ À Ð Ø à è ð X
+clk_IBUF_BUFG_inst/I
+BUFGCTRL_X0Y0  J X h zr€ ˜  ¨ ¸ À Ð Ø à è ð q
+clk_IBUF_BUFG_inst/O
+BUFGCTRL_X0Y0
+Prop_bufg_I_O JBUFGX h zr€¦›Ä=˜  ¨ ¸ À Ð Ø à è ð [
+display_unit/clk  Jnet (fo=20, routed)X h € 
+Ð?˜  ¨ ¸ À Ð Ø à è ð m
+*&display_unit/refresh_counter_reg[18]/CSLICE_X65Y29  JFDREX h zr€ ˜  ¨ ¸ À Ð Ø à è ð ¸Ð ð      	    an[0]	    an[1]	    an[2]	    an[3]

@@ -1,0 +1,1206 @@
+   
+2016.1"
+PB_ResultsðB  
+ power_1riscv_mini_core¥	    (?5    8 E    M    UÿÿZ@
+Vccint  €?BU<%²ª+:-    5BU<=  €?@H P ]    e    u    }    Z@
+Vccauxffæ?M°N<%b
+Ò8-    5M°N<=  €?@H P ]    e    u    }    Z@
+Vcco3333S@oƒ:%Î˜:-    5oƒ:=  €?@H P ]    e    u    }    Z@
+Vcco25   @    %    -    5    =  €?@H P ]    e    u    }    Z@
+Vcco18ffæ?    %    -    5    =  €?@H P ]    e    u    }    Z@
+Vcco15  À?    %    -    5    =  €?@H P ]    e    u    }    ZA
+ Vcco135ÍÌ¬?    %    -    5    =  €?@H P ]    e    u    }    Z@
+Vcco12š™™?    %    -    5    =  €?@H P ]    e    u    }    ZC
+	Vccaux_ioffæ?    %    -    5    =  €?@H P ]    e    u    }    ZA
+ Vccbram  €?>W)9%    -    5>W)9=  €?@H P ]    e    u    }    ZA
+ MGTAVcc  €?    %    -    5    =  €?@H P ]    e    u    }    ZA
+ MGTAVttš™™?    %    -    5    =  €?@H P ]    e    u    }    Z@
+Vccadcffæ?
+×£<%    -    5
+×£<=  €?@H P ]    e    u    }    b j#
+routed  €?  €?%èš=*
+Productionr‘
+
+Clocks    
+
+
+Slice Logic   
+
+CARRY4Ö? 
+
+
+Register€Å  
+
+LUT as LogicÀ¢ 
+
+Others  Þ 
+
+ Signals   
+
+
+I/Oj  }    ‚aSpecify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>"ª
+T
+xc7a35tcpg236-1
+commercial typical"
+
+2012-07-11
+Productionv1.0-ynB5é¿=A8@‹
+ÿë¯,  ÈA<©B%ü
+ËA-¾úŸ@5  ð@8úBmedium (Medium Profile)M33“@P Z7
+12to15 (12 to 15 Layers)medium (10"x10")  ÈA (0`h	p	x€ˆ+
+WVpF"A*Ohm5  €?=  €?E¥ÔhSM  €?U  €?"
+
+sys_clk_pinclk   A*Õy
+Å
+  ä
+display_unitdisplay_unit"ß 
+oS	:     "Þ 
+       @"
+
+74\7   @"
+7ž8    B"
+„Ð7   @"
+$L_8  àA" 
+#t 7   A" 
+’)æ9   @@"
+$L_8  àA"
+         "
+         "ß 
+~Ø˜;     "
+         "Þ 
+      €@"
+7ž8"  B"
+ |…;  @A" 
+¥:   @@"
+$L_8  àA"
+$L_8  àA"
+         "
+
+74\7   @"
+„Ð7  @@" 
+#t 7   A×!Ò!
+I/O Type
+I/O Standard
+Drive Strength
+
+Input Pins
+
+Output Pins
+
+Bidir Pins
+IO LOGIC SERDES
+IO DELAY
+IBUF LOW PWR
+
+Input Term
+Output Impedance
+
+Clock Name
+
+Clock (MHz)
+Signal Rate (Mtr/s)
+	Data Rate
+Output Enable (%)
+Term Disable (%)
+IBUF Disable (%)
+Output Load (pF)
+
+Vccint (W)
+
+Vccaux (W)
+
+Vccaux_io (W)
+Vcco On-chip  (W)
+External Termination
+Vcco   Off-chip   (W)ð
+
+HR
+LVCMOS33
+	12.000000
+0
+4
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+sys_clk_pin 
+
+100.000000
+	11.721286
+SDR
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000180
+0.000000
+0.003828
+NONE
+0.000000“
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+sys_clk_pin 
+
+100.000000
+	11.721286
+SDR
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000045
+0.000000
+0.000957
+NONE
+0.000000																								 (5(cƒ::an[3]“
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+sys_clk_pin 
+
+100.000000
+	11.721286
+SDR
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000045
+0.000000
+0.000957
+NONE
+0.000000																								 (5(cƒ::an[2]“
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+sys_clk_pin 
+
+100.000000
+	11.721286
+SDR
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000045
+0.000000
+0.000957
+NONE
+0.000000																								 (5(cƒ::an[1]“
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+sys_clk_pin 
+
+100.000000
+	11.721286
+SDR
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000045
+0.000000
+0.000957
+NONE
+0.000000																								 (5(cƒ::an[0]																													 ( 5(cƒ;:anê
+HR
+LVCMOS33
+	12.000000
+0
+7
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+N/A
+0.000000
+0.000000
+ASYNC
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000000
+0.000000
+0.000000
+NONE
+0.000000Š
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+N/A
+0.000000
+0.000000
+ASYNC
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000000
+0.000000
+0.000000
+NONE
+0.000000																								 (5    :seg[6]Š
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+N/A
+0.000000
+0.000000
+ASYNC
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000000
+0.000000
+0.000000
+NONE
+0.000000																								 (5    :seg[5]Š
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+N/A
+0.000000
+0.000000
+ASYNC
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000000
+0.000000
+0.000000
+NONE
+0.000000																								 (5    :seg[4]Š
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+N/A
+0.000000
+0.000000
+ASYNC
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000000
+0.000000
+0.000000
+NONE
+0.000000																								 (5    :seg[3]Š
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+N/A
+0.000000
+0.000000
+ASYNC
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000000
+0.000000
+0.000000
+NONE
+0.000000																								 (5    :seg[2]Š
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+N/A
+0.000000
+0.000000
+ASYNC
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000000
+0.000000
+0.000000
+NONE
+0.000000																								 (5    :seg[1]Š
+HR
+LVCMOS33
+	12.000000
+0
+1
+0
+No
+Off
+No
+NONE
+RDRV_NONE_NONE
+N/A
+0.000000
+0.000000
+ASYNC
+
+100.000000
+0.000000
+0.000000
+5.000000
+0.000000
+0.000000
+0.000000
+0.000000
+NONE
+0.000000																								 (5    :seg[0]																													 ( 5    :segŽ
+HR
+LVCMOS33
+
+-2147483648
+1
+0
+0
+No
+Off
+No
+RTT_NONE
+NONE
+sys_clk_pin 
+
+100.000000
+
+200.000000
+Clock
+0.000000
+0.000000
+0.000000
+0.000000
+0.000064
+0.000000
+0.000000
+0.000000
+NONE
+0.000000																								 (5¼7†8:clk                                                          b^
+Signal Rate (Mtr/s)
+% High
+Fanout
+Slice Fanout
+Clock
+
+Logic Type            b^
+Signal Rate (Mtr/s)
+% High
+Fanout
+Slice Fanout
+Clock
+
+Logic Type            é ä
+Frequency (MHz)
+Buffer
+Clock Buffer Enable (%)
+
+Enable Signal
+
+Bel Fanout
+Sites
+
+Fanout/Site
+TypeÜ
+
+100.000000
+N/A
+
+-2147483648
+N/A
+22
+7
+3.142857
+N/AV
+
+100.000000
+N/A
+
+-2147483648
+N/A
+1
+1
+1.000000
+N/A							  (5    :clk[
+
+100.000000
+N/A
+
+-2147483648
+N/A
+1
+1
+1.000000
+N/A							  (5Z‚Œ8:clk_IBUFb
+
+100.000000
+BUFG
+
+-2147483648
+N/A
+20
+5
+4.000000
+N/A							  (5Sgµ9:
+clk_IBUF_BUFGj
+
+100.000000
+BUFG
+
+-2147483648
+N/A
+20
+5
+4.000000
+Global								 (5þÃ8:clk_IBUF_BUFG_inst							  (5¥::clk                ¹´
+Signal Rate (Mtr/s)
+% High
+Fanout
+Slice Fanout
+Clock
+
+Logic Typem
+	44.994354
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5¹%7:(display_unit/refresh_counter_reg_n_0_[1]m
+	49.027216
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5ëÜ¢6:(display_unit/refresh_counter_reg_n_0_[2]m
+	31.495264
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5S(…6:(display_unit/refresh_counter_reg_n_0_[5]\
+	12.502898
+	75.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Rf6:display_unit/an_OBUF[3]\
+	12.502898
+	75.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5²æe6:display_unit/an_OBUF[2]\
+	12.502898
+	75.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5\H6:display_unit/an_OBUF[0]m
+	46.920535
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Ê*6:(display_unit/refresh_counter_reg_n_0_[3]\
+	12.502898
+	75.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5
+	$6:display_unit/an_OBUF[1]m
+	23.903105
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5’Î6:(display_unit/refresh_counter_reg_n_0_[6]m
+	40.382090
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5ýV6:(display_unit/refresh_counter_reg_n_0_[4]m
+	14.263034
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5W5ñ5:(display_unit/refresh_counter_reg_n_0_[9]a
+	12.503858
+	50.000000
+5
+2
+
+sys_clk_pin
+N/A					 (5•=ä5:display_unit/active_digit[0]n
+	12.618884
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5GgÕ5:)display_unit/refresh_counter_reg_n_0_[13]n
+	12.507679
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Õ…Ó5:)display_unit/refresh_counter_reg_n_0_[17]n
+	13.406427
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5~#²5:)display_unit/refresh_counter_reg_n_0_[10]n
+	12.560055
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5vä¦5:)display_unit/refresh_counter_reg_n_0_[14]a
+	12.501939
+	50.000000
+5
+2
+
+sys_clk_pin
+N/A					 (5D²˜5:display_unit/active_digit[1]m
+	18.845509
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5r–ˆ5:(display_unit/refresh_counter_reg_n_0_[7]m
+	15.884253
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5@f5:(display_unit/refresh_counter_reg_n_0_[8]n
+	12.962458
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Âå;5:)display_unit/refresh_counter_reg_n_0_[11]n
+	12.734836
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5™85:)display_unit/refresh_counter_reg_n_0_[12]n
+	12.530285
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5¢55:)display_unit/refresh_counter_reg_n_0_[15]n
+	12.515256
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Bj55:)display_unit/refresh_counter_reg_n_0_[16]m
+	12.500000
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5« +5:(display_unit/refresh_counter_reg_n_0_[0]o
+	10.872240
+6.250000
+1
+1
+
+sys_clk_pin
+N/A					 (5    :+display_unit/refresh_counter_reg[0]_i_1_n_0o
+0.003020
+0.001526
+1
+1
+
+sys_clk_pin
+N/A					 (5    :,display_unit/refresh_counter_reg[12]_i_1_n_0n
+0.755591
+0.390625
+1
+1
+
+sys_clk_pin
+N/A					 (5    :+display_unit/refresh_counter_reg[4]_i_1_n_0n
+0.047956
+0.024414
+1
+1
+
+sys_clk_pin
+N/A					 (5    :+display_unit/refresh_counter_reg[8]_i_1_n_0            „ÿ
+Type
+
+Clock (MHz)
+
+Clock Name
+Signal Rate (Mtr/s)
+% Highn
+CARRY4
+
+-2147483648
+Async
+	33.446465
+	41.249999				 (5¨Æ¦6:'display_unit/refresh_counter_reg[0]_i_1n
+CARRY4
+
+-2147483648
+Async
+	24.416985
+	40.078124				 (5àlr6:'display_unit/refresh_counter_reg[4]_i_1d
+LUT
+
+-2147483648
+Async
+	12.502898
+	75.000000				 (5Vé6: display_unit/an_OBUF[0]_inst_i_1d
+LUT
+
+-2147483648
+Async
+	12.502898
+	75.000000				 (5Vé6: display_unit/an_OBUF[1]_inst_i_1d
+LUT
+
+-2147483648
+Async
+	12.502898
+	75.000000				 (5Vé6: display_unit/an_OBUF[2]_inst_i_1d
+LUT
+
+-2147483648
+Async
+	12.502898
+	75.000000				 (5Vé6: display_unit/an_OBUF[3]_inst_i_1n
+CARRY4
+
+-2147483648
+Async
+	11.512315
+	40.004882				 (5S9ß5:'display_unit/refresh_counter_reg[8]_i_1o
+CARRY4
+
+-2147483648
+Async
+	10.102865
+	40.000305				 (58Â5:(display_unit/refresh_counter_reg[12]_i_1o
+CARRY4
+
+-2147483648
+Async
+	12.508245
+	50.000000				 (5<À5:(display_unit/refresh_counter_reg[16]_i_1m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	49.027216
+	50.000000			 (5§”5:#display_unit/refresh_counter_reg[2]m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	46.920535
+	50.000000			 (5ý±5:#display_unit/refresh_counter_reg[3]m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	44.994354
+	50.000000			 (5ßà‡5:#display_unit/refresh_counter_reg[1]g
+LUT
+
+-2147483648
+Async
+	12.500000
+	50.000000				 (5p9‡5:#display_unit/refresh_counter[0]_i_2m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	40.382090
+	50.000000			 (5Qæs5:#display_unit/refresh_counter_reg[4]m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	31.495264
+	50.000000			 (5›9>5:#display_unit/refresh_counter_reg[5]m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	23.903105
+	50.000000			 (5³^5:#display_unit/refresh_counter_reg[6]m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	18.845509
+	50.000000			 (5h¥ã4:#display_unit/refresh_counter_reg[7]m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	15.884253
+	50.000000			 (5à¿4:#display_unit/refresh_counter_reg[8]m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	14.263034
+	50.000000			 (5¬J¬4:#display_unit/refresh_counter_reg[9]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	13.406427
+	50.000000			 (5¸ñ¡4:$display_unit/refresh_counter_reg[10]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.962458
+	50.000000			 (5Í”œ4:$display_unit/refresh_counter_reg[11]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.734836
+	50.000000			 (5éÔ™4:$display_unit/refresh_counter_reg[12]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.618884
+	50.000000			 (5Wn˜4:$display_unit/refresh_counter_reg[13]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.560055
+	50.000000			 (5k¸—4:$display_unit/refresh_counter_reg[14]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.530285
+	50.000000			 (5\\—4:$display_unit/refresh_counter_reg[15]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.515256
+	50.000000			 (5â-—4:$display_unit/refresh_counter_reg[16]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.507679
+	50.000000			 (5t—4:$display_unit/refresh_counter_reg[17]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.503858
+	50.000000			 (5£
+—4:$display_unit/refresh_counter_reg[18]n
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.501939
+	50.000000			 (5´—4:$display_unit/refresh_counter_reg[19]m
+FF
+
+100.000000
+
+clk_IBUF_BUFG
+	12.500000
+	50.000000			 (5µþ–4:#display_unit/refresh_counter_reg[0]H
+Others
+
+-2147483648
+Async
+0.000000
+0.000000			   (5    :GNDJ
+Others
+
+-2147483648
+Async
+0.000000
+
+100.000000			   (5    :VCCU
+Others
+
+-2147483648
+Async
+0.000000
+0.000000			   (5    :display_unit/GNDW
+Others
+
+-2147483648
+Async
+0.000000
+
+100.000000			   (5    :display_unit/VCC          ¹´
+Signal Rate (Mtr/s)
+% High
+Fanout
+Slice Fanout
+Clock
+
+Logic Typem
+	44.994354
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5¹%7:(display_unit/refresh_counter_reg_n_0_[1]m
+	49.027216
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5ëÜ¢6:(display_unit/refresh_counter_reg_n_0_[2]m
+	31.495264
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5S(…6:(display_unit/refresh_counter_reg_n_0_[5]\
+	12.502898
+	75.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Rf6:display_unit/an_OBUF[3]\
+	12.502898
+	75.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5²æe6:display_unit/an_OBUF[2]\
+	12.502898
+	75.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5\H6:display_unit/an_OBUF[0]m
+	46.920535
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Ê*6:(display_unit/refresh_counter_reg_n_0_[3]\
+	12.502898
+	75.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5
+	$6:display_unit/an_OBUF[1]m
+	23.903105
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5’Î6:(display_unit/refresh_counter_reg_n_0_[6]m
+	40.382090
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5ýV6:(display_unit/refresh_counter_reg_n_0_[4]m
+	14.263034
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5W5ñ5:(display_unit/refresh_counter_reg_n_0_[9]a
+	12.503858
+	50.000000
+5
+2
+
+sys_clk_pin
+N/A					 (5•=ä5:display_unit/active_digit[0]n
+	12.618884
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5GgÕ5:)display_unit/refresh_counter_reg_n_0_[13]n
+	12.507679
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Õ…Ó5:)display_unit/refresh_counter_reg_n_0_[17]n
+	13.406427
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5~#²5:)display_unit/refresh_counter_reg_n_0_[10]n
+	12.560055
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5vä¦5:)display_unit/refresh_counter_reg_n_0_[14]a
+	12.501939
+	50.000000
+5
+2
+
+sys_clk_pin
+N/A					 (5D²˜5:display_unit/active_digit[1]m
+	18.845509
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5r–ˆ5:(display_unit/refresh_counter_reg_n_0_[7]m
+	15.884253
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5@f5:(display_unit/refresh_counter_reg_n_0_[8]n
+	12.962458
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Âå;5:)display_unit/refresh_counter_reg_n_0_[11]n
+	12.734836
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5™85:)display_unit/refresh_counter_reg_n_0_[12]n
+	12.530285
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5¢55:)display_unit/refresh_counter_reg_n_0_[15]n
+	12.515256
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5Bj55:)display_unit/refresh_counter_reg_n_0_[16]m
+	12.500000
+	50.000000
+1
+1
+
+sys_clk_pin
+N/A					 (5« +5:(display_unit/refresh_counter_reg_n_0_[0]o
+	10.872240
+6.250000
+1
+1
+
+sys_clk_pin
+N/A					 (5    :+display_unit/refresh_counter_reg[0]_i_1_n_0o
+0.003020
+0.001526
+1
+1
+
+sys_clk_pin
+N/A					 (5    :,display_unit/refresh_counter_reg[12]_i_1_n_0n
+0.755591
+0.390625
+1
+1
+
+sys_clk_pin
+N/A					 (5    :+display_unit/refresh_counter_reg[4]_i_1_n_0n
+0.047956
+0.024414
+1
+1
+
+sys_clk_pin
+N/A					 (5    :+display_unit/refresh_counter_reg[8]_i_1_n_0            2'
+   "report_power -name power_1-    
