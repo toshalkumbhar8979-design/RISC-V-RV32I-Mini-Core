@@ -20,63 +20,43 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
+(* DONT_TOUCH = "yes" *)
 module riscv_mini_core(
     input clk,
-    input reset,
-    // The ONLY physical ports going to the Basys 3 hardware
-    output [6:0] seg,        
-    output [3:0] an          
+    input rst,
+    output [15:0] core_out
 );
 
-    // Internal signals - These stay INSIDE the FPGA fabric
-    reg [31:0] pc;
-    wire [31:0] alu_result;
-    reg [31:0] reg_file [0:31];
+    (* DONT_TOUCH = "yes" *) wire [31:0] idata_internal;
+    (* DONT_TOUCH = "yes" *) wire [31:0] instr_fetch, pc_to_decode, pc_to_execute, execute_result, reg_file_out;
+    wire [3:0] alu_sel;
+    wire [4:0] rs1_addr, rs2_addr, rd_addr;
+    wire stall_sig;
 
-    // Dummy Instruction (Normally from instruction_mem)
-    // You can replace this wire with your actual instruction memory output
-    wire [31:0] instr = 32'h00000000; 
+    assign core_out = reg_file_out[15:0];
 
-    // Instruction Decoding
-    wire [6:0] opcode = instr[6:0];
-    wire [4:0] rd     = instr[11:7];
-    wire [2:0] funct3 = instr[14:12];
-    wire [4:0] rs1    = instr[19:15];
-    wire [4:0] rs2    = instr[24:20];
-
-    // Program Counter Logic
-    always @(posedge clk or posedge reset) begin
-        if (reset) 
-            pc <= 32'h0000_0000;
-        else 
-            pc <= pc + 4;
-    end
-
-    // ALU Logic (Execute Stage)
-    assign alu_result = (opcode == 7'b0110011) ? 
-                            (funct3 == 3'b000) ? (reg_file[rs1] + reg_file[rs2]) : 
-                            (funct3 == 3'b111) ? (reg_file[rs1] & reg_file[rs2]) : 
-                            (funct3 == 3'b110) ? (reg_file[rs1] | reg_file[rs2]) : 
-                            32'h0 : 32'h0;
-
-    // Register Writeback
+    // ROM Implementation
+    reg [31:0] rom [0:63]; 
+    reg [31:0] idata_reg;
     integer i;
-    always @(posedge clk or posedge reset) begin
-        if (reset) begin
-            for (i = 0; i < 32; i = i + 1) reg_file[i] <= 32'h0;
-        end else begin
-            if (opcode == 7'b0110011 && rd != 5'b0) begin
-                reg_file[rd] <= alu_result;
-            end
-        end
+
+    initial begin
+        rom[0] = 32'h00500093; // addi x1, x0, 5
+        rom[1] = 32'h00a00113; // addi x2, x0, 10
+        rom[2] = 32'h002081b3; // add x3, x1, x2
+        for (i = 3; i < 64; i = i + 1) rom[i] = 32'h00000013;
     end
 
-    // Hardware Visualization - Shows ALU Result on 7-Segment
-    hex_to_7seg display_unit (
-        .clk(clk),
-        .data(alu_result[15:0]), 
-        .seg(seg),
-        .an(an)
-    );
+    always @(posedge clk) begin
+        idata_reg <= rom[pc_to_decode[7:2]];
+    end
+    assign idata_internal = idata_reg;
+
+    // Directing Vivado NOT to collapse these hierarchies
+    pipeline_ctrl pc_unit (.clock(clk), .reset(rst), .instruction(instr_fetch), .stall_out(stall_sig));
+    fetch fetch_inst (.clock(clk), .reset(rst), .stall(stall_sig), .idata(idata_internal), .instr_out(instr_fetch), .pc_out(pc_to_decode));
+    decode decode_inst (.clock(clk), .reset(rst), .stall(stall_sig), .instruction(instr_fetch), .pc_in(pc_to_decode), .alu_fns_sel(alu_sel), .rs1_addr(rs1_addr), .rs2_addr(rs2_addr), .rd_addr(rd_addr), .pc_out(pc_to_execute));
+    execute execute_inst (.clock(clk), .reset(rst), .alu_fn(alu_sel), .pc_in(pc_to_execute), .rd_addr_in(rd_addr), .result(execute_result));
+    GPR_MEMORY gpr_inst (.clock(clk), .reset(rst), .regA_addr(rs1_addr), .regB_addr(rs2_addr), .regD_addr(rd_addr), .write_data(execute_result), .read_data_out(reg_file_out));
 
 endmodule
